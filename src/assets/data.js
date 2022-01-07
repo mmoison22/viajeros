@@ -1,16 +1,32 @@
-const data = {
-    title: "Colombie",
-    price: 1500,
-    duration: "10 jours / 8 nuits",
-    departure_city: "",
-    short_description: "court texte de présentation",
-    hotel_list: "tableau des hotels",
-    main_photo: "https://viajeros-react.s3.eu-west-3.amazonaws.com/20191203_140508.jpg",
-
-
-
-
-
-};
-
-export default data;
+export const data = [
+    {
+        id: "1",
+        title: "Colombie",
+        price: 1500,
+        duration: "10 jours / 8 nuits",
+        departure_city: "",
+        short_description: "court texte de présentation",
+        hotel_list: "tableau des hotels",
+        main_photo: "https://viajeros-react.s3.eu-west-3.amazonaws.com/20191203_140508.jpg",
+    },
+    {
+        id: "2",
+        title: "Pérou",
+        price: 900,
+        duration: "7 jours / 6 nuits",
+        departure_city: "",
+        short_description: "court texte de présentation",
+        hotel_list: "tableau des hotels",
+        main_photo: "https://viajeros-react.s3.eu-west-3.amazonaws.com/20191203_140508.jpg",
+    },
+    {
+        id: "3",
+        title: "Argentine",
+        price: 1500,
+        duration: "10 jours / 8 nuits",
+        departure_city: "",
+        short_description: "court texte de présentation",
+        hotel_list: "tableau des hotels",
+        main_photo: "https://viajeros-react.s3.eu-west-3.amazonaws.com/20191203_140508.jpg",
+    },
+];

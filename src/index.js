@@ -2,19 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Travel from './components/Travel';
-import Cart from './components/Cart';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+
+
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/travel/:id" element={<Travel />} />
-      </Routes>
+      <App />
     </BrowserRouter>
 
   </React.StrictMode>,

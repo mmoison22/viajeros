@@ -1,9 +1,11 @@
 import "./Cart.css";
 
-const Cart = () => {
+const Cart = (props) => {
+
     return (
         <div className="mainContent">
             Cart
+            <div>Le panier contient {props.panier.length} voyages.</div>
         </div>
     );
 };
