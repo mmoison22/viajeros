@@ -1,22 +1,27 @@
 import "./Main.css";
 import { data } from "../assets/data";
 import Card from "./Card";
+// import { Link } from "react-router-dom";
 
 const Main = (props) => {
     console.log(data);
     return (
         <div className="mainContent">
-            Catalogue
+          <h2>
+
+            Découvrez nos offres de voyage organisé !
+          </h2>
 
             
             {console.log("panier : " + JSON.stringify(props.panier))}
-            <a href="./cart">Page Panier</a>
+            {/* <Link to="./cart">Page Panier</Link> */}
             {data ? data.map((travel, i) => {
                 console.log(travel);
             return (
                 
               <Card
                 key={i}
+                id={travel.id}
                 travel={travel}
                 panier={props.panier}
                 title={travel.title}

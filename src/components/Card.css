@@ -1,3 +1,53 @@
 .card {
- background-color: beige;
+ background-color: #e4f2f5;
+ box-shadow: 10px 5px 5px rgb(241, 243, 219);
+ margin: 1rem;
+ display: flex;
+ flex-direction: row;
+ width: 70vw;
+}
+
+.imgCard {
+    width: 50%;
+    height: 30vh;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+.infoVoyage {
+    /* background-color: tomato; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: green;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.boutons {
+    margin-top: 50px;
+    margin-bottom: 1rem;
+    display: flex;
+    /* background-color: hotpink; */
+}
+
+button {
+    font-size: 1.2rem;
+    margin:10px;
+    background-color: rgb(240, 196, 100);
+}
+
+.infosV {
+    font-size: 1.2rem;
+    margin: 10px 0;
 }

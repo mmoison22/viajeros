@@ -7,16 +7,18 @@ import {useState} from 'react';
 
 function App() {
 
-  const [panier, setPanier] = useState([{
-    id: "0",
-    title: "test",
-    price: 1,
-    duration: "10 jours / 8 nuits",
-    departure_city: "",
-    short_description: "court texte de présentation",
-    hotel_list: "tableau des hotels",
-    main_photo: "https://viajeros-react.s3.eu-west-3.amazonaws.com/20191203_140508.jpg",
-}]);
+  const [panier, setPanier] = useState([
+//     {
+//     id: "0",
+//     title: "test",
+//     price: 1,
+//     duration: "10 jours / 8 nuits",
+//     departure_city: "",
+//     short_description: "court texte de présentation",
+//     hotel_list: "tableau des hotels",
+//     main_photo: "https://viajeros-react.s3.eu-west-3.amazonaws.com/20191203_140508.jpg",
+// }
+]);
   return (
     <div>
 

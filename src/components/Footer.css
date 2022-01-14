@@ -1,6 +1,32 @@
 .containerF {
-    /* background-color: #35aa46; */
-    background-color: #a9ec8a;
-    height: 20vh;
+    background-color: #7bdbf3;
+    height: 10vh;
+    display: flex;
+    align-items: center;
     
 }
+.containerF > div {
+    flex:1;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
